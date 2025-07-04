@@ -1,11 +1,12 @@
 import React from "react";
 import "./Header.css";
+import profileImage from "../assets/profile.jpeg"; 
 
 function Header() {
   return (
     <header className="header">
       <div className="header-image">
-        <img src="/profile.JPEG" alt="Yvette" className="header-profile-image" />
+        <img src={profileImage} alt="Yvette" className="header-profile-image" />
       </div>
 
       <div className="header-text">
